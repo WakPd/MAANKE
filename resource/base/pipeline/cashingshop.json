@@ -2,7 +2,7 @@
 "Cash Shop Home": {
 	"recognition": "TemplateMatch",
 	"roi": [174, 1186, 43, 43],
-    "template": "Screenshot_2024_174_1186_43_43__124_1136_143_143.png",
+    "template": "cash_shop/home_icon.png",
     "action": "Click"
 },
 "Cash Shop": {
@@ -15,7 +15,7 @@
 "Gift Icon Click": {
 	"recognition": "TemplateMatch",
 	"roi": [133, 261, 39, 42],
-    "template": "Screenshot_2024_133_261_39_42__83_211_139_142.png",
+    "template": "cash_shop/gift_icon.png",
     "action": "Click",
     "next": ["Daily Text Click"]
 },

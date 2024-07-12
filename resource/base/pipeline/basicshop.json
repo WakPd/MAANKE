@@ -1,0 +1,8 @@
+{
+"Basic Shop ": {
+        "recognition": "OCR",
+        "roi": [142, 859, 74, 24],
+        "template": "Screenshot_2024_142_859_74_24__92_809_174_124.png",
+        "action": "Click"
+}
+}

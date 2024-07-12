@@ -2,7 +2,7 @@
 "Friend": {
 	"recognition": "TemplateMatch",
 	"roi": [641, 290, 33, 36],
-    "template": "Screenshot_2024_641_290_33_36__587_240_133_136.png",
+    "template": "lobby/friend/icon.png",
     "action": "Click",
     "next": ["Friend Send and Receive"]
 },
@@ -23,7 +23,7 @@
 "Friends Closing": {
 	"recognition": "TemplateMatch",
 	"roi": [621, 134, 46, 46],
-    "template": "Screenshot_2024_621_134_46_46__571_84_146_146.png",
+    "template": "lobby/friend/friend_closing.png",
     "action": "Click",
     "next": ["Touch To Continue"]
 }

@@ -15,20 +15,20 @@
 "Notice Closing": {
 	"recognition": "TemplateMatch",
 	"roi": [624, 109, 58, 43],
-    "template": "170603_624_109_58_43__562_59_158_143.png",
+    "template": "game_run/notice_closing.png",
     "action": "Click"
 },
 "News No Remind": {
 	"recognition": "TemplateMatch",
 	"roi": [81, 946, 16, 21],
-    "template": "Screenshot_2024_81_946_16_21__31_896_116_121.png",
+    "template": "game_run/no_remind.png",
     "action": "Click",
     "next": ["News Closing"]
 },
 "News Closing": {
 	"recognition": "TemplateMatch",
 	"roi": [621, 259, 39, 40],
-    "template": "Screenshot_2024_621_259_39_40__571_209_139_140.png",
+    "template": "game_run/news_closing.png",
     "action": "Click",
     "next": ["Touch To Continue"]
 },
