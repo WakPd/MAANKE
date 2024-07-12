@@ -1,0 +1,43 @@
+{
+"Cash Shop Home": {
+	"recognition": "TemplateMatch",
+	"roi": [174, 1186, 43, 43],
+    "template": "Screenshot_2024_174_1186_43_43__124_1136_143_143.png",
+    "action": "Click"
+},
+"Cash Shop": {
+	"recognition": "OCR",
+	"roi": [114, 768, 60, 26],
+    "expected": "Cash",
+    "action": "Click",
+    "next": ["Gift Icon Click"]
+},
+"Gift Icon Click": {
+	"recognition": "TemplateMatch",
+	"roi": [133, 261, 39, 42],
+    "template": "Screenshot_2024_133_261_39_42__83_211_139_142.png",
+    "action": "Click",
+    "next": ["Daily Text Click"]
+},
+"Daily Text Click": {
+	"recognition": "OCR",
+	"roi": [367, 356, 53, 20],
+    "expected": "Daily",
+    "action": "Click",
+    "next": ["Free Text Click"]
+},
+"Free Text Click": {
+	"recognition": "OCR",
+	"roi": [108, 796, 62, 27],
+    "expected": "Free",
+    "action": "Click",
+    "next": ["Tap To Claim"]
+},
+"Tap To Claim": {
+	"recognition": "OCR",
+	"roi": [324, 771, 53, 25],
+    "expected": "claim",
+    "action": "Click",
+    "next": ["Cash Shop Home"]
+}
+}

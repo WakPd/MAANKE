@@ -1,0 +1,41 @@
+{
+    "controller": [
+        {
+            "name": "Adb",
+            "type": "Adb"
+        }
+    ],
+    "resource": [
+        {
+            "name": "English",
+            "path": [
+                "{PROJECT_DIR}/resource/base"
+            ]
+        },
+        {
+            "name": "Soon",
+            "path": [
+                ""
+            ]
+        }
+    ],
+    "task": [
+        {
+            "name": "Run The Game",
+            "entry": "Run Game"
+        },
+        {
+            "name": "Friend Send And Receive",
+            "entry": "Friend"
+        },
+        {
+            "name": "Cash Shop",
+            "entry": "Cash Shop"
+        },
+        {
+            "name": "Shop",
+            "entry": "Shop"
+        }
+    ],
+    "version": "v0.0.1"
+}

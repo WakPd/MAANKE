@@ -1,0 +1,30 @@
+{
+"Friend": {
+	"recognition": "TemplateMatch",
+	"roi": [641, 290, 33, 36],
+    "template": "Screenshot_2024_641_290_33_36__587_240_133_136.png",
+    "action": "Click",
+    "next": ["Friend Send and Receive"]
+},
+"Friend Send and Receive": {
+	"recognition": "OCR",
+	"roi": [480, 1077, 179, 25],
+    "expected": "Send",
+    "action": "Click",
+    "next": ["Friends Confirm"]
+},
+"Friends Confirm": {
+	"recognition": "OCR",
+	"roi": [334, 789, 95, 26],
+    "expected": "Confirm",
+    "action": "Click",
+    "next": ["Friends Closing"]
+},
+"Friends Closing": {
+	"recognition": "TemplateMatch",
+	"roi": [621, 134, 46, 46],
+    "template": "Screenshot_2024_621_134_46_46__571_84_146_146.png",
+    "action": "Click",
+    "next": ["Touch To Continue"]
+}
+}

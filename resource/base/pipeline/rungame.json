@@ -1,0 +1,42 @@
+{
+"Run Game": {
+    "is_sub": true,
+    "action": "StartApp",
+    "package": "com.proximabeta.nikke/com.shiftup.nk.MainActivity",
+	"next": ["News No Remind", "Select Server","News Closing", "Touch To Continue"]
+},
+"Touch To Continue": {
+	"recognition": "OCR",
+	"roi": [361, 1045, 138, 27],
+    "expected": "CONTINUE",
+    "action": "Click",
+    "next": ["Notice Closing"]
+},
+"Notice Closing": {
+	"recognition": "TemplateMatch",
+	"roi": [624, 109, 58, 43],
+    "template": "170603_624_109_58_43__562_59_158_143.png",
+    "action": "Click"
+},
+"News No Remind": {
+	"recognition": "TemplateMatch",
+	"roi": [81, 946, 16, 21],
+    "template": "Screenshot_2024_81_946_16_21__31_896_116_121.png",
+    "action": "Click",
+    "next": ["News Closing"]
+},
+"News Closing": {
+	"recognition": "TemplateMatch",
+	"roi": [621, 259, 39, 40],
+    "template": "Screenshot_2024_621_259_39_40__571_209_139_140.png",
+    "action": "Click",
+    "next": ["Touch To Continue"]
+},
+"Select Server": {
+	"recognition": "OCR",
+	"roi": [332, 914, 108, 36],
+    "expected": "Confirm",
+    "action": "Click",
+    "next": ["Touch To Continue"]
+}
+}

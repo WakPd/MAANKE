@@ -1,0 +1,23 @@
+{
+    "adb": {
+        "adb_path": "C:/Program Files/BlueStacks_nxt/HD-Adb.exe",
+        "address": "127.0.0.1:5555",
+        "config": {
+        }
+    },
+    "controller": {
+        "name": "Adb",
+        "type": "Adb"
+    },
+    "resource": "English",
+    "task": [
+        {
+            "name": "Run The Game",
+            "option": [
+            ]
+        }
+    ],
+    "win32": {
+        "_placeholder": 0
+    }
+}
