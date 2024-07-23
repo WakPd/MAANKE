@@ -57,7 +57,6 @@ chmod a+x MaaPiCli
 ```
 ## Linux
 
-~~Linux
-A big guy with Linux shouldn't need me to teach~~
+~~A big guy with Linux shouldn't need me to teach~~
 
         
