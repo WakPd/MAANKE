@@ -1,8 +1,30 @@
 {
-"Basic Shop ": {
+"Basic Shop": {
         "recognition": "OCR",
-        "roi": [142, 859, 74, 24],
-        "template": "Screenshot_2024_142_859_74_24__92_809_174_124.png",
-        "action": "Click"
+        "roi": [140, 855, 75, 33],
+        "expected": "Shop",
+        "action": "Click",
+        "next": ["100 Sale"]
+},
+"100 Sale": {
+        "recognition": "TemplateMatch",
+	"roi": [175, 832, 87, 21],
+        "template": "basic_shop/sale.png",
+        "action": "Click",
+        "next": ["Buy"]
+},
+"Buy": {
+        "recognition": "OCR",
+	"roi": [373, 1003, 84, 87],
+        "expected": "Buy",
+        "action": "Click",
+        "next": ["Profile Cstm Pack buy"]
+},
+"Profile Cstm Pack buy": {
+        "recognition": "TemplateMatch",
+	"roi": [373, 1003, 84, 87],
+        "template": "basic_shop/cstm_profile_pack.png",
+        "action": "Click",
+        "next": ["Profile Cstm Pack buy"]
 }
 }
